@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { tsPropertySignature } from '@babel/types';
 
 const Exercise = props => (
     <tr>
@@ -57,7 +56,7 @@ export default class ExerciseList extends Component {
                     <thead className="thead-light">
                         <tr>
                             <th>Username</th>
-                            <th>Descriptio</th>
+                            <th>Description</th>
                             <th>Duration</th>
                             <th>Date</th>
                             <th>Actions</th>
